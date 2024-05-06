@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAY 2024 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAY 2024 01:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1765,34 +1765,65 @@ L/cmm/m/it/9 x[]$\T1/cmr/m/n/9 's form a base for $\OML/cmm/m/it/9 K$ \T1/cmr/m
 [13]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 118.
+(mdframed)              on input line 119.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 123.
+(mdframed)              on input line 124.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 128.
+(mdframed)              on input line 129.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 135.
+(mdframed)              on input line 136.
 
-Overfull \hbox (14.71205pt too wide) detected at line 145
+Overfull \hbox (14.71205pt too wide) detected at line 146
 []
  []
 
 Package mdframed Info: You first box width is to small
  mdframed fixed it
-(mdframed)              on input line 155.
-[14]) [15] (./master.aux)
+(mdframed)              on input line 156.
+[14]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 159.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 163.
+
+./Chapter4.tex:169: Missing delimiter (. inserted).
+<to be read again> 
+                   {
+l.169 ...ma_i(x)|}{n}\right)^n\left \frac{t^n}{n!}
+                                                  .\]
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+./Chapter4.tex:169: Missing \right. inserted.
+<inserted text> 
+                \right .
+l.169 ...i(x)|}{n}\right)^n\left \frac{t^n}{n!}.\]
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[15]) [16] (./master.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 39100 strings out of 476025
- 993722 string characters out of 5779036
+ 39106 strings out of 476025
+ 993851 string characters out of 5779036
  1882388 words of memory out of 5000000
- 58805 multiletter control sequences out of 15000+600000
+ 58811 multiletter control sequences out of 15000+600000
  547888 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,88p,850b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1824,28 +1855,29 @@ ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/2023
 ufm10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1
 /public/amsfonts/euler/eufm7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cella
-r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/
-homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super
-/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cellar/texlive/20230313_2/shar
-e/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></opt/homebrew/Cellar/tex
-live/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></opt
-/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-supe
-r/sfrm0800.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/
-type1/public/cm-super/sfrm0900.pfb></opt/homebrew/Cellar/texlive/20230313_2/sha
-re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></opt/homebrew/Cellar/te
-xlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></op
-t/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-sup
-er/sfrm1728.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts
-/type1/public/cm-super/sfss1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/sh
-are/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></opt/homebrew/Cellar/t
-exlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfti0600.pfb></o
-pt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-su
-per/sfti0700.pfb>
-Output written on master.pdf (16 pages, 479113 bytes).
+r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7
+.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/publ
+ic/rsfs/rsfs10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2
+/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cella
+r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb>
+</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm
+-super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/f
+onts/type1/public/cm-super/sfrm0800.pfb></opt/homebrew/Cellar/texlive/20230313_
+2/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></opt/homebrew/Cell
+ar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
+></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/c
+m-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/
+fonts/type1/public/cm-super/sfrm1728.pfb></opt/homebrew/Cellar/texlive/20230313
+_2/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></opt/homebrew/Cel
+lar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pf
+b></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
+cm-super/sfti0600.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist
+/fonts/type1/public/cm-super/sfti0700.pfb>
+Output written on master.pdf (17 pages, 487265 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 249 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

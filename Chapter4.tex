@@ -111,6 +111,7 @@ By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The
    So we end up with the determinant $D = (2i)^{-r_2}\det_{1\leq i,j\leq n}(\sigma_j(x_i))$. Since $x_i$'s form a base for $K$ over $\Q$, $\det_{1\leq i,j\leq n}(\sigma_j(x_i))\neq 0$ and therefore $D\neq 0$. Thus the vectors $\sigma(x_i)$ are linearly independent in $\R^n$, so that the $\Z$-module they generate (call it $\sigma(M)$) is a lattice in $\R^n$. So we get
    \[\vol(\sigma(M)) = |(2i)^{-r_2}\det(\sigma_j(x_i))| = 2^{-r_2}|\det(\sigma_j(x_i))|\]
    as required.
+
 \end{proof}
 
 
@@ -154,24 +155,18 @@ By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The
   Therefore the formula holds for all $n$.
 \end{proof}
 
+\begin{prop}
+  Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\fraka$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
+  \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
+\end{prop}
+\begin{proof}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-% \begin{prop}
-%   Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\fraka$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
-%   \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
-% \end{prop}
-% \begin{proof}
-% \end{proof}
+Choose $t$ such that $\mu(B(r_1, r_2, t)) = 2^n \vol(\sigma(\fraka))$. So,
+\[2^{r_1}\left(\frac{\pi}{2}\right)^{r_2}\frac{t^n}{n!} = 2^{n-r_2}|d|^{\frac12} \Longrightarrow t^n = 2^{n-r_1}\pi^{-r_2}n! |d|^{\frac12}N(\fraka) \tag{$(\star)$}\]
+Since $B(r_1, r_2, t)$ is symmetric, convex and compact, there exists a nonzero $x\in \fraka \cap B(r_1, r_2, t)$. By virtue of being in $B(r_1, r_2, t)$, this element satisfies :
+\[\sum_{i=1}^n |\sigma_i(x)| \leq t.\]
+Combining this with the inequality of geometric and arithmetic means, we have :
+\[|N(x)| = \left|\prod_{i=1}^n \sigma_i(x)\right| = \left(\dfrac{\sum_{i=1}^n |\sigma_i(x)|}{n}\right)^n\left \frac{t^n}{n!}.\]
+Using $(\star)$, we get the desired inequality :
+\[N(x)\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
+\end{proof}

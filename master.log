@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  6 MAY 2024 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAY 2024 00:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -221,6 +221,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \colbreak@box=\box98
 \mc@col@check@num=\count280
 )
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/abstract/ab
+stract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip53
+\absleftindent=\skip54
+\absrightindent=\skip55
+\absparindent=\skip56
+\absparsep=\skip57
+)
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/xcolor/xcol
 or.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
@@ -251,7 +260,7 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/amsmath/ams
 math.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip53
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
 
@@ -316,8 +325,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen181
 \lineht@=\dimen182
 \@envbody=\toks25
-\multlinegap=\skip54
-\multlinetaggap=\skip55
+\multlinegap=\skip59
+\multlinetaggap=\skip60
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -342,12 +351,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count294
 \calc@Adimen=\dimen183
 \calc@Bdimen=\dimen184
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count295
-\calc@Cskip=\skip58
+\calc@Cskip=\skip63
 )
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/mathtools/m
 hsetup.sty
@@ -355,7 +364,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count296
 \l_MT_multwidth_dim=\dimen185
-\origjot=\skip59
+\origjot=\skip64
 \l_MT_shortvdotswithinadjustabove_dim=\dimen186
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen187
 \l_MT_above_intertext_sep=\dimen188
@@ -373,9 +382,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks29
 \thm@notefont=\toks30
 \thm@headpunct=\toks31
-\thm@preskip=\skip60
-\thm@postskip=\skip61
-\thm@headsep=\skip62
+\thm@preskip=\skip65
+\thm@postskip=\skip66
+\thm@headsep=\skip67
 \dth@everypar=\toks32
 )
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/amsfonts/am
@@ -498,8 +507,8 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box110
 \extrarowheight=\dimen199
 \NC@list=\toks35
-\extratabsurround=\skip63
-\backup@length=\skip64
+\extratabsurround=\skip68
+\backup@length=\skip69
 \ar@cellbox=\box111
 ))
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/pgf/fronten
@@ -1080,47 +1089,47 @@ Package zref Info: New property: abspage on input line 65.
 eedspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip65
+\mdf@templength=\skip70
 \c@mdf@globalstyle@cnt=\count346
-\mdf@skipabove@length=\skip66
-\mdf@skipbelow@length=\skip67
-\mdf@leftmargin@length=\skip68
-\mdf@rightmargin@length=\skip69
-\mdf@innerleftmargin@length=\skip70
-\mdf@innerrightmargin@length=\skip71
-\mdf@innertopmargin@length=\skip72
-\mdf@innerbottommargin@length=\skip73
-\mdf@splittopskip@length=\skip74
-\mdf@splitbottomskip@length=\skip75
-\mdf@outermargin@length=\skip76
-\mdf@innermargin@length=\skip77
-\mdf@linewidth@length=\skip78
-\mdf@innerlinewidth@length=\skip79
-\mdf@middlelinewidth@length=\skip80
-\mdf@outerlinewidth@length=\skip81
-\mdf@roundcorner@length=\skip82
-\mdf@footenotedistance@length=\skip83
-\mdf@userdefinedwidth@length=\skip84
-\mdf@needspace@length=\skip85
-\mdf@frametitleaboveskip@length=\skip86
-\mdf@frametitlebelowskip@length=\skip87
-\mdf@frametitlerulewidth@length=\skip88
-\mdf@frametitleleftmargin@length=\skip89
-\mdf@frametitlerightmargin@length=\skip90
-\mdf@shadowsize@length=\skip91
-\mdf@extratopheight@length=\skip92
-\mdf@subtitleabovelinewidth@length=\skip93
-\mdf@subtitlebelowlinewidth@length=\skip94
-\mdf@subtitleaboveskip@length=\skip95
-\mdf@subtitlebelowskip@length=\skip96
-\mdf@subtitleinneraboveskip@length=\skip97
-\mdf@subtitleinnerbelowskip@length=\skip98
-\mdf@subsubtitleabovelinewidth@length=\skip99
-\mdf@subsubtitlebelowlinewidth@length=\skip100
-\mdf@subsubtitleaboveskip@length=\skip101
-\mdf@subsubtitlebelowskip@length=\skip102
-\mdf@subsubtitleinneraboveskip@length=\skip103
-\mdf@subsubtitleinnerbelowskip@length=\skip104
+\mdf@skipabove@length=\skip71
+\mdf@skipbelow@length=\skip72
+\mdf@leftmargin@length=\skip73
+\mdf@rightmargin@length=\skip74
+\mdf@innerleftmargin@length=\skip75
+\mdf@innerrightmargin@length=\skip76
+\mdf@innertopmargin@length=\skip77
+\mdf@innerbottommargin@length=\skip78
+\mdf@splittopskip@length=\skip79
+\mdf@splitbottomskip@length=\skip80
+\mdf@outermargin@length=\skip81
+\mdf@innermargin@length=\skip82
+\mdf@linewidth@length=\skip83
+\mdf@innerlinewidth@length=\skip84
+\mdf@middlelinewidth@length=\skip85
+\mdf@outerlinewidth@length=\skip86
+\mdf@roundcorner@length=\skip87
+\mdf@footenotedistance@length=\skip88
+\mdf@userdefinedwidth@length=\skip89
+\mdf@needspace@length=\skip90
+\mdf@frametitleaboveskip@length=\skip91
+\mdf@frametitlebelowskip@length=\skip92
+\mdf@frametitlerulewidth@length=\skip93
+\mdf@frametitleleftmargin@length=\skip94
+\mdf@frametitlerightmargin@length=\skip95
+\mdf@shadowsize@length=\skip96
+\mdf@extratopheight@length=\skip97
+\mdf@subtitleabovelinewidth@length=\skip98
+\mdf@subtitlebelowlinewidth@length=\skip99
+\mdf@subtitleaboveskip@length=\skip100
+\mdf@subtitlebelowskip@length=\skip101
+\mdf@subtitleinneraboveskip@length=\skip102
+\mdf@subtitleinnerbelowskip@length=\skip103
+\mdf@subsubtitleabovelinewidth@length=\skip104
+\mdf@subsubtitlebelowlinewidth@length=\skip105
+\mdf@subsubtitleaboveskip@length=\skip106
+\mdf@subsubtitlebelowskip@length=\skip107
+\mdf@subsubtitleinneraboveskip@length=\skip108
+\mdf@subsubtitleinnerbelowskip@length=\skip109
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/mdframed/md
 -frame-1.mdf
@@ -1131,33 +1140,33 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@splitbox@one=\box127
 \mdf@splitbox@two=\box128
 \mdf@splitbox@save=\box129
-\mdfsplitboxwidth=\skip105
-\mdfsplitboxtotalwidth=\skip106
-\mdfsplitboxheight=\skip107
-\mdfsplitboxdepth=\skip108
-\mdfsplitboxtotalheight=\skip109
-\mdfframetitleboxwidth=\skip110
-\mdfframetitleboxtotalwidth=\skip111
-\mdfframetitleboxheight=\skip112
-\mdfframetitleboxdepth=\skip113
-\mdfframetitleboxtotalheight=\skip114
-\mdffootnoteboxwidth=\skip115
-\mdffootnoteboxtotalwidth=\skip116
-\mdffootnoteboxheight=\skip117
-\mdffootnoteboxdepth=\skip118
-\mdffootnoteboxtotalheight=\skip119
-\mdftotallinewidth=\skip120
-\mdfboundingboxwidth=\skip121
-\mdfboundingboxtotalwidth=\skip122
-\mdfboundingboxheight=\skip123
-\mdfboundingboxdepth=\skip124
-\mdfboundingboxtotalheight=\skip125
-\mdf@freevspace@length=\skip126
-\mdf@horizontalwidthofbox@length=\skip127
-\mdf@verticalmarginwhole@length=\skip128
-\mdf@horizontalspaceofbox=\skip129
-\mdfsubtitleheight=\skip130
-\mdfsubsubtitleheight=\skip131
+\mdfsplitboxwidth=\skip110
+\mdfsplitboxtotalwidth=\skip111
+\mdfsplitboxheight=\skip112
+\mdfsplitboxdepth=\skip113
+\mdfsplitboxtotalheight=\skip114
+\mdfframetitleboxwidth=\skip115
+\mdfframetitleboxtotalwidth=\skip116
+\mdfframetitleboxheight=\skip117
+\mdfframetitleboxdepth=\skip118
+\mdfframetitleboxtotalheight=\skip119
+\mdffootnoteboxwidth=\skip120
+\mdffootnoteboxtotalwidth=\skip121
+\mdffootnoteboxheight=\skip122
+\mdffootnoteboxdepth=\skip123
+\mdffootnoteboxtotalheight=\skip124
+\mdftotallinewidth=\skip125
+\mdfboundingboxwidth=\skip126
+\mdfboundingboxtotalwidth=\skip127
+\mdfboundingboxheight=\skip128
+\mdfboundingboxdepth=\skip129
+\mdfboundingboxtotalheight=\skip130
+\mdf@freevspace@length=\skip131
+\mdf@horizontalwidthofbox@length=\skip132
+\mdf@verticalmarginwhole@length=\skip133
+\mdf@horizontalspaceofbox=\skip134
+\mdfsubtitleheight=\skip135
+\mdfsubsubtitleheight=\skip136
 \c@mdfcountframes=\count347
 
 ****** mdframed patching \endmdf@trivlist
@@ -1175,50 +1184,50 @@ lse, topline=false, bottomline=false, linecolor=ForestGreen, backgroundcolor=Fo
 restGreen!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmgreenbox' on input line 116.
+(thmtools)             that uses `style=thmgreenbox' on input line 117.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue, backgroundcolor=NavyB
 lue!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmbluebox' on input line 125.
+(thmtools)             that uses `style=thmbluebox' on input line 126.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmblueline' on input line 134.
+(thmtools)             that uses `style=thmblueline' on input line 135.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=RawSienna, backgroundcolor=RawS
 ienna!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmredbox' on input line 143.
+(thmtools)             that uses `style=thmredbox' on input line 144.
 Package thmtools Info: Key `numbered' (with value `no')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 154.
+(thmtools)             that uses `style=thmproofbox' on input line 155.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=RawSienna, backgroundcolor=RawS
 ienna!1, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 154.
+(thmtools)             that uses `style=thmproofbox' on input line 155.
 Package thmtools Info: Key `qed' (with value `\qedsymbol ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 154.
+(thmtools)             that uses `style=thmproofbox' on input line 155.
 Package thmtools Info: Key `numbered' (with value `no')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmexplanationbox' on input line 164.
+(thmtools)             that uses `style=thmexplanationbox' on input line 165.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue, backgroundcolor=NavyB
 lue!1, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmexplanationbox' on input line 164.
+(thmtools)             that uses `style=thmexplanationbox' on input line 165.
 Package thmtools Info: Automatically pulling in `thmdef-mdframed' on input line
- 176.
+ 177.
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/thmtools/th
 mdef-mdframed.sty
@@ -1245,22 +1254,16 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ncyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip132
-\f@nch@O@elh=\skip133
-\f@nch@O@erh=\skip134
-\f@nch@O@olh=\skip135
-\f@nch@O@orh=\skip136
-\f@nch@O@elf=\skip137
-\f@nch@O@erf=\skip138
-\f@nch@O@olf=\skip139
-\f@nch@O@orf=\skip140
+\f@nch@headwidth=\skip137
+\f@nch@O@elh=\skip138
+\f@nch@O@erh=\skip139
+\f@nch@O@olh=\skip140
+\f@nch@O@orh=\skip141
+\f@nch@O@elf=\skip142
+\f@nch@O@erf=\skip143
+\f@nch@O@olf=\skip144
+\f@nch@O@orf=\skip145
 )
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 257.
-
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
@@ -1268,10 +1271,16 @@ less.
 ine 258.
 
 
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 259.
+
+
+Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less.
+(fancyhdr)                Please consider using the `twoside' option on input l
+ine 260.
 
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/todonotes/t
@@ -1382,8 +1391,8 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/faktor/fakt
 or.sty
 Package: faktor 2006/04/05 v0.1b Faktor-Ringe, -Gruppen, -Raeume (PE)
-\faktor@zaehlerhoehe=\skip141
-\faktor@nennerhoehe=\skip142
+\faktor@zaehlerhoehe=\skip146
+\faktor@nennerhoehe=\skip147
 )
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 26.
@@ -1762,20 +1771,28 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 123.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 129.
+(mdframed)              on input line 128.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 133.
-) [14] (./master.aux)
+(mdframed)              on input line 135.
+
+Overfull \hbox (14.71205pt too wide) detected at line 145
+[]
+ []
+
+Package mdframed Info: You first box width is to small
+ mdframed fixed it
+(mdframed)              on input line 155.
+[14]) [15] (./master.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 39033 strings out of 476025
- 992351 string characters out of 5779036
- 1881388 words of memory out of 5000000
- 58741 multiletter control sequences out of 15000+600000
+ 39100 strings out of 476025
+ 993722 string characters out of 5779036
+ 1882388 words of memory out of 5000000
+ 58805 multiletter control sequences out of 15000+600000
  547888 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,88p,850b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1807,29 +1824,28 @@ ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/2023
 ufm10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1
 /public/amsfonts/euler/eufm7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cella
-r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7
-.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/publ
-ic/rsfs/rsfs10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2
-/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cella
-r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb>
-</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm
--super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm0800.pfb></opt/homebrew/Cellar/texlive/20230313_
-2/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></opt/homebrew/Cell
-ar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/
-fonts/type1/public/cm-super/sfrm1728.pfb></opt/homebrew/Cellar/texlive/20230313
-_2/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></opt/homebrew/Cel
-lar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pf
-b></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
-cm-super/sfti0600.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist
-/fonts/type1/public/cm-super/sfti0700.pfb>
-Output written on master.pdf (15 pages, 477719 bytes).
+r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/
+homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super
+/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/t
+ype1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cellar/texlive/20230313_2/shar
+e/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></opt/homebrew/Cellar/tex
+live/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></opt
+/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm0800.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/
+type1/public/cm-super/sfrm0900.pfb></opt/homebrew/Cellar/texlive/20230313_2/sha
+re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></opt/homebrew/Cellar/te
+xlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></op
+t/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1728.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts
+/type1/public/cm-super/sfss1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/sh
+are/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></opt/homebrew/Cellar/t
+exlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfti0600.pfb></o
+pt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-su
+per/sfti0700.pfb>
+Output written on master.pdf (16 pages, 479113 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 241 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

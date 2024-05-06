@@ -124,11 +124,54 @@ By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The
 \end{proof}
 
 \section{Finiteness of the ideal class group}
-
 \begin{prop}
-  Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\fraka$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
-  \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
+  Let $r_1,r_2\in \N$ such that $n=r_1+2r_2$, $t\in \R$ and let $B(r_1,r_2,t)$ be the set of all elements $(y_1,\ldots, y_{r_1}, z_1,\ldots, z_{r_2})\in \R^{r_1}\times \C^{r_2}$ such that :
+    \[\sum_{i=1}^{r_1}|y_i| + 2\sum_{j=1}^{r_2}|z_j| \leq t.\]
+  Let $\mu$ denote the Lebesgue measure in $\R^n$. Then,
+  \[\mu(B(r_1,r_2,t)) = 2^{r_1}\left(\frac{\pi}{2}\right)^{r_2}\frac{t^n}{n!}\tag{for any $t\geq 0$.}\]
 \end{prop}
+
 \begin{proof}
-  Let $\sigma$
+  We induct on $n$. The two base cases : $r_1 = 1, r_2 = 0$ and $r_1 = 0$ and $r_2 = 1$. In the former $B(1,0,t) = \{x\in \R : |x|\leq t\}$ has volume $2t = \frac{2^1}{1!}\left(\frac{\pi}{2}\right)^0 t^1$. In the latter case,
+  $B(0,1,t) = \{y\in \C : 2 |y| \leq t\}$ which has volume $\pi (t/2)^2 = \frac{2^0}{2!}\left(\frac{\pi}{2}\right)^1 t^2$.
+
+  To go from $n-1\to n$, we could either fix $r_2$ and increment $r_1$ or we could fix $r_1$ and increment $r_2$. In the both cases, we assume the formula is true for $n-1 = r_1 + 2r_2$. Now for $n$, the volume in the first case $r_1 \mapsto r_1 + 1$ fixing $r_2$ is :
+
+  \begin{align*}
+    \mu(B(r_1+1,r_2, t)) &= \displaystyle\int_{-t}^t B(r_1, r_2, t-|x|)\mathrm{d}x \\
+    &= \displaystyle\int_{-t}^0 B(r_1, r_2, t+x)\mathrm{d}x + \displaystyle\int_{0}^t B(r_1, r_2, t-x)\mathrm{d}x \\
+    &= 2^{r_1}\left(\frac{\pi}{2}\right)^{r_2}\frac{1}{(n-1)!}\left[\displaystyle\int_{-t}^0 (t+x)^{n-1} \mathrm{d}x + \displaystyle\int_{0}^t(t-x)^{n-1} \mathrm{d}x\right] \\
+    &= 2^{r_1+1}\left(\frac{\pi}{2}\right)^{r_2}\frac{t^n}{n!}
+  \end{align*}
+
+  \noindent The volume in the second case $r_2 \mapsto r_2 + 1$ fixing $r_1$ is :
+  \begin{align*}
+    \mu(B(r_1, r_2+1, t)) &= \displaystyle\int_{\{0\leq |z|\leq t/2\}} B(r_1, r_2, t-2|x|)\mathrm{d}x \\
+    &= \frac{2^{r_1}}{(n-2)!}\left(\frac{\pi}{2}\right)^{r_2}\displaystyle\int_{0}^{t/2}\int_{0}^{2\pi}x(t-2x)^{n-1}\mathrm{d}\theta\mathrm{d}x \\
+    &= \frac{2^{r_1}}{(n-2)!}\left(\frac{\pi}{2}\right)^{r_2}\cdot 2\pi \displaystyle\int_{0}^{t/2}x(t-2x)^{n-2}\mathrm{d}x \\
+    &= \frac{2^{r_1}}{(n-2)!}\left(\frac{\pi}{2}\right)^{r_2}\cdot 2\pi  \dfrac{t^n}{n(n-1)} = 2^{r_1}\left(\frac{\pi}{2}\right)^{r_2+1}\frac{t^n}{n!}
+  \end{align*}
+  Therefore the formula holds for all $n$.
 \end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{prop}
+%   Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\fraka$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
+%   \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
+% \end{prop}
+% \begin{proof}
+% \end{proof}

@@ -296,3 +296,43 @@ From previous lemma we know that $\calr'$ is a submodule of a free $\calr$-modul
 
    We now note that $\prod_{\frakp \in \operatorname{spec}(\calr)}\frakp^{n_\frakp(\frakb)}$ is the inverse of $\frakb$. Hence, the monoid of non-zero fractional ideals of $\calr$ is a group.
 \end{proof}
+
+\begin{prop}
+  The following are true :
+  \begin{enumerate}
+    \item $n_{\frakp}(\fraka\frakb) = n_{\frakp}(\fraka)+n_{\frakp}(\frakb)$
+    \item $\frakb \subset \calr \iff n_{\frakp}(\frakb)\geq 0$ for all $\frakp \in \operatorname{spec}(\calr)$.
+    \item $\fraca \subset \fracb \iff n_{\frakp}(\fraka)\geq n_{\frakp}(\frakb)$ for all $\frakp \in \operatorname{spec}(\calr)$.
+    \item $n_{\frakp}(\fraka + \frakb) = \inf(n_{\frakp}(\fraka),n_{\frakp}(\frakb))$
+    \item $n_{\frakp}(\fraka \cap \frakb) = \sup(n_{\frakp}(\fraka),n_{\frakp}(\frakb))$
+  \end{enumerate}
+\end{prop}
+
+\section{The Ideal Class Group}
+
+For a Dedekind ring $\calr$, we now have a well-defined group structure on the set of fractional ideals $\mathcal{I}(\calr)$. We can then define the group homomorphism $\varphi : F^* \to \mathcal{I}(\calr), \alpha \mapsto (\alpha)$.
+The kernel of $\varphi$ is the group of units $\calr^*$. The cokernel of $\varphi$ is $\mathcal{I}(\calr)/\im(\varphi)$. This is the ideal class group of $\calr$ denoted by $Cl(\calr)$. It is the group of fractional ideals modulo principal fractional ideals. Thus, for any Dedekind ring $\calr$, we have the exact sequence :
+\[0 \to \calr^* \to F^* \to \mathcal{I}(\calr)\to Cl(\calr)\to 0.\]
+
+\section{The norm of an ideal}
+
+Let $K$ be a number field, $n$ be its degree, and $\calr$ be the ring of integers of $K$. Let $N(x) := N_{K/\Q}(x)$.
+
+\begin{prop}
+  If $x$ is a non-zero element of $A$, then $|N(x)| = |A/Ax|$.
+\end{prop}
+\begin{proof}
+  We know that $A$ is a free $\Z$-module of rank $n$, and $Ax$ is a $Z$-submodule of $A$. It is also of rank $n$, since mutliplication by $x$ maps $A$ to $Ax$ isomorphically. There exists a base $(e_1,\ldots, e_n)$ of the $\Z$-module $A$ together with elements $c_i$ of $\N$ such that $(c_1 e_1,\ldots, c_n e_n)$ is a base of $Ax$.
+
+  Furthermore, the abelian group $A/Ax$ is isomorphic to the finite abelian group $\prod_{i=1}^n \Z/c_i\Z$, whose order is $c_1 c_2\ldots c_n$. Write $u$ for the $\Z$-linear mapping of $A$ on $Ax$ defined by $u(e_i)=c_i e_i$ for $i=1,\ldots, n$. We have $\det(u)=c_1\cdots c_n$. On the other hand $(xe_1,\ldots, xe_n)$ is also a base for $Ax$. There is thus an automorphism $v$ of the $\Z$-module $Ax$ such that by $v(c_i e_i)=xe_i$.
+   Then $\det(v)$ is invertible in $\Z$, so $\det(v)=\pm 1$. But $u\cdot v$ is mutliplication by $x$, and its determinant is, by definition, $N(x)$. Since $\det(v\cdot u) = \det(v)\det(u)$, we may conclude that $N(x)=\pm c_1\cdots c_n = \pm |A/Ax|$.
+\end{proof}
+
+
+\begin{prop}
+  If $\fraka$ and $\frakb$ are both non-zero integral ideals of $A$, then $N(\fraka\frakb) = N(\fraka)N(\frakb)$.
+\end{prop}
+\begin{proof}
+  The ideal $\frakb$ factors into a product of maximal ideals, and it suffices to show that $N(\fraka \frakm)= N(\fraka)N(\frakm)$ for $\frakm$ maximal. Since $\fraka\frakm\subset \fraka$, we have $|A/\fraka\frakm| = |A/\fraka| |\fraka/\fraka\frakm|$. It thus suffices to show that $|\fraka/\fraka\frakm| = |A/\frakm|$. Now $\fraka/\fraka\frakm$ is an $A$-module annihilated by $\frakm$, which means it may be considered as a vector space over $A/\frakm$.
+  Its subspaces are its $A$-submodules; and they are of the form $\frakq/\fraka\frakm$, where $\frakq$ is an ideal such that $\fraka\frakm \subset \frakq \subset \fraka$. There are no ideals between $\fraka\frakm$ and $\fraka$. Therefore, the vector space $\fraka/\fraka\frakm$ is of dimension one over $A/\frakm$. This means that $|\fraka/\fraka\frakm| = |A/\frakm|$.
+ \end{proof}

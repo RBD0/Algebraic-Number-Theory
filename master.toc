@@ -3,7 +3,9 @@
 \contentsline {section}{\numberline {1.2}An application concerning integral elements}{4}{}%
 \contentsline {section}{\numberline {1.3}Some preliminaries concerning ideals}{5}{}%
 \contentsline {section}{\numberline {1.4}Dedekind Domains}{7}{}%
-\contentsline {chapter}{\numberline {2}Ideal Classes and the Unit Theorem}{11}{}%
-\contentsline {section}{\numberline {2.1}Preliminaries concerning discrete subgroups of $\ensuremath {\mathbb {R}}^n$}{11}{}%
-\contentsline {section}{\numberline {2.2}The canonical imbedding of a number field}{14}{}%
-\contentsline {section}{\numberline {2.3}Finiteness of the ideal class group}{15}{}%
+\contentsline {section}{\numberline {1.5}The Ideal Class Group}{10}{}%
+\contentsline {section}{\numberline {1.6}The norm of an ideal}{10}{}%
+\contentsline {chapter}{\numberline {2}Ideal Classes and the Unit Theorem}{12}{}%
+\contentsline {section}{\numberline {2.1}Preliminaries concerning discrete subgroups of $\ensuremath {\mathbb {R}}^n$}{12}{}%
+\contentsline {section}{\numberline {2.2}The canonical imbedding of a number field}{15}{}%
+\contentsline {section}{\numberline {2.3}Finiteness of the ideal class group}{16}{}%

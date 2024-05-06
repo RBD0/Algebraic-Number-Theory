@@ -118,3 +118,14 @@ By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The
   Let $d$ be the absolute discriminant of $K$, let $A$ be the ring of integers in $K$, and let $\fraka$ be a non-zero integral ideal of $A$. Then $\sigma(A)$ and $\sigma(\fraka)$ are lattices. Moreover,
   \[\vol(\sigma(A)) = 2^{-r_2}|d|^{\frac12}\quad\text{and}\quad \vol(\sigma(\fraka)) = 2^{-r_2}|d|^{\frac12}N(\fraka).\]
 \end{prop}
+
+\begin{proof}
+  We know that $A$ and $\fraka$ are free $\Z$-modules of rank $n$, so we may apply the previous proposition. On the other hand, if $(x_i)$ is a $\Z$-base for $A$, then $d = \det_{1\leq i,j\leq n}(\sigma_{i}(x_j))^2$. This proves the first result. The second formula follows from the first and the observation that $\sigma(\fraka)$ is a subgroup of $\sigma(A)$ of index $N(\fraka)$. A fundamental domain for $\sigma(\fraka)$ may obviously constructed as the disjoint union of $N(\fraka)$ copies of a fundamental domain for $\sigma(A)$.
+\end{proof}
+
+\section{Finiteness of the ideal class group}
+
+\begin{prop}
+  Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\fraka$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
+  \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\fraka).\]
+\end{prop}

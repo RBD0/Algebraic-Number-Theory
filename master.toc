@@ -6,3 +6,4 @@
 \contentsline {chapter}{\numberline {2}Ideal Classes and the Unit Theorem}{10}{}%
 \contentsline {section}{\numberline {2.1}Preliminaries concerning discrete subgroups of $\ensuremath {\mathbb {R}}^n$}{10}{}%
 \contentsline {section}{\numberline {2.2}The canonical imbedding of a number field}{13}{}%
+\contentsline {section}{\numberline {2.3}Finiteness of the ideal class group}{14}{}%

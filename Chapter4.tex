@@ -1,0 +1,97 @@
+\chapter{Ideal Classes and the Unit Theorem}
+
+\subsection{Preliminaries concerning discrete subgroups of $\R^n$}
+
+\begin{defintion}[Discrete Subgroup of $\R^n$]
+A subgroup $H$ of $\R^n$ is discrete if and only if, for any compact subset $K$ of $\R^n$, the intersection $H\cap K$ is finite.
+\end{defintion}
+
+\begin{theorem}
+  Let $H$ be a discrete subgroup of $\R^n$. Then $H$ is generated over $\Z$ by $r$ vectors $e_1,\ldots, e_r$ which are linearly independent over $\R$.
+\end{theorem}
+
+\begin{proof}
+  Choose $\mathbf{e}=e_1,\ldots, e_r$ in $H$ such that they are $\R$-linearly independent and $r$ is maximal. Define $\mathscr{P}$ as follows :
+  \[\mathscr{P} := \left\{\sum_{i=1}^r \alpha_i e_i | \alpha_i \in [0,1]\right\},\]
+
+  The set $\mathscr{P}$ is called the fundamental pallelogram of $H$ with respect to the basis $e_1, \ldots, e_r$. We can immediately see that $\mathscr{P}$ is compact because it is homeomorphic to $\R^n$.
+  Let $x\in H$. Then we can write $x$ in the form :
+  \[x = \sum_{i=1}^r \lambda_i e_i,\]
+  for $\lambda_i \in \R$. If $x$ cannot be written in this form, we can add $x$ to $\{e_1,\ldots, e_r\}$, contradicting the maximality of $r$.
+  Now for $j\in \Z$, let :
+  \[x_j := jx - \sum_{i=1}^r \lfloor \lambda_i j\rfloor e_j = \sum_{i=1}^r (\lambda_i j - \lfloor\lambda_i j\rfloor)e_i \tag{$j\in \Z$}.\]
+  Hence, $x_j\in \mathscr{P}$. It follows that $x_j \in \mathscr{P}\cap H$.
+  Since $H$ is discrete, $\mathscr{P}\cap H$ is finite since $\mathscr{P}$ is compact. For $j=1$, we have :
+  \[x = x_1 + \sum_{i=1}^r \lfloor \lambda_i \rfloor e_i.\]
+  So $x$ is in the $\Z$ span of a finite set. Hence, $H$ is finitely generated over $\Z$. Since $\mathscr{P}\cap H$ is finite, there exist $j\neq k$ such that $x_j = x_k$. It follows that :
+  \[\sum_{i=1}^r \lambda_i (j-k)e_i = \sum_{i=1}^r (\lfloor j\lambda_i\rfloor - \lfloor k\lambda_i\rfloor)e_i.\]
+  Linear independence of $\{e_i\}$ gives us :
+  \[\lambda_i (j-k)=\lfloor j\lambda_i\rfloor - \lfloor k\lambda_i\rfloor.\]
+  Hence $\lambda_i \in \Q$ for all $i$. So far we've shown that for any $x\in \mathscr{P}\cap H$, $x=\sum_{i=1}^r \lambda_i e_i$ where $\lambda_i\in \Q$ for all $i$. Let $d$ be the least common multiple of the denominators of $\lambda_i$'s. Then for any $x\in H$, we know :
+  \[x = x_1+\sum_{i=1}^r \lfloor \lambda_i \rfloor e_i \in \frac{1}{d}\sum_{i=1}^r \Z e_i.\] We conclude that :
+  $H \subseteq \frac{1}{d}\sum_{i=1}^r \Z e_i \implies \sum_{i=1}^r \Z e_i \subseteq H \subseteq \frac{1}{d}\Z e_i$. Therefore we must have that $H$ is finitely generated of rank $r$ over $\Z$ on some linear combination of the vectors $\{\frac{1}{d}e_i\}$. This basis is linearly independent over $\R$ as desired.
+\end{proof}
+
+\begin{definition}[Lattice]
+  A discrete subgroup of rank $n$ of $\R^n$ is called a lattice in $\R^n$.
+\end{definition}
+
+By Theorem $1$, a lattice is generated over $\Z$ by a base of $\R^n$, wich is then a $\Z$-base for the given lattic. For each $\Z$-base $e = (e_1,\ldots, e_n)$ of a lattice $H$ we shall write $\mathscr{P}_e$ for the half open parallelotope :
+\[\mathscr{P}_e = \left\{x\in \R^n | x = \sum_{i=1}^n \alpha_i e_i, \alpha_i \in [0,1)\right\}\]
+
+Thus every point of $\R^n$ is congruent modulo $H$ to one and only one point of $P_e$ for any fixed $e$ (we say, in this case, that $P_e$ is a fundamental domain for $H$). We shall write $\mu$ to denote the Lebesgue measure in $\R^n$, i.e. if $S$ is a measurable subset of $\R^n$, $\mu(S)$ will stand for its measure (which we will also call its volume).
+
+
+\begin{lemma}
+  The volume $\mu(\scrap_e)$ is independent of the base $e$ chosen for $H$.
+\end{lemma}
+
+\begin{proof}
+  Let $f = (f_1,\ldots, f_n)$ be another base for $H$. Then :
+\[f_i = \sum_{j=1}^n \alpha_ij e_j \tag{$\alpha_{ij}\in \Z$}.\]
+By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The change of bases matrix $(\alpha_{ij}) \in GL_n(\Z)$, so $\det{(\alpha_{ij})}=\pm 1$. Hence, $\mu(\scrap_f)=\mu(\scrap_e)$.
+\end{proof}
+
+\begin{definition}[Volume of a Lattice]
+  The volume of the parallelotope $\scrap_e$ associated with any base $e$ of $H$ is called the volume of the lattice $H$ and is denoted by $\vol(H)$.
+\end{definition}
+
+\begin{theorem}[Minkowski]
+  Let $H$ be a lattice in $\R^n$ and let $S$ be a measurable subset of $\R^n$ such that $\mu(S)> \vol(H)$. Then there exist two distinct points $x,y\in S$ such that $x-y\in H$.
+\end{theorem}
+
+\begin{proof}
+  Consider the sets $S_x = S\cap (x+\scrap_e)$, where $x\in H$. Notice that these sets form a partition of $S$, i.e. they are pairwise disjoint and :
+  \[S = \cup_{x\in H} S_x.\]
+  In particular we have :
+  \[\vol(S) = \sum_{x\in H}\vol(S_x).\]
+  Notice that the translated sets $S_x - x = (S-x)\cap \scrap_e$ are all contained in $\scrap_e$. We want to prove that the $S_x$ cannot be all mutually disjoint. Since $\vol(S_x) = \vol(S_x - x)$, we have :
+  \[\vol(H)<\vol(S) = \sum_{x\in H}\vol(S_x) = \sum_{x\in H} \vol(S_x - x).\]
+  The facts that $S_x - x \subseteq \scrap_e$ and $\sum_{x\in H}\vol(S_x-x)> \vol(H)$ imply that these sets cannot be disjoint, i.e. there exist two distinct vectors $x\neq y \in H$ such that $(S_x - x)\cap (S_y - y)\neq 0$. Let $z$ be any vector in the (non-empty) intersection $(S_x-x)\cap (S_y - y)$ and define :
+  \begin{align*}
+    z_1 &= z + x \in S_x \subseteq S \\
+    z_2 &= z + y \in S_y \subseteq S.
+  \end{align*}
+  These two vectors satisfy $z_1 - z_2 = x-y \in H$.
+\end{proof}
+
+\begin{theorem}[Minkowski's convex body theorem]
+  Let $H$ be a full-dimensional lattice in $\R^n$ and let $C\subseteq \R^n$ be a convex set symmetric about the origin $(i.e. x\in C \implies -x\in C)$. Suppose that either :
+  \begin{enumerate}
+    \item $\vol(C) > \cdot 2^n \cdot \vol(H)$, or
+    \item $\vol(C) \geq \cdot 2^n \cdot \vol(H)$ and $C$ is compact.
+  \end{enumerate}
+  Then $ \C\cap (H\setminus\{0\})\neq \varnothing$.
+\end{theorem}
+\begin{proof}
+  It is easy to see that the volume of the set $\frac12 C = \{x/2 : x\in C\}$ is $2^{-m}\vol(C)$, and therefore, we can apply previous theorem to find $\frac12 x_0,\frac12 x_1\in \frac12 C$ such that $z = \frac12 x_1 - \frac12 x_0 \in H$. Clearly $z = \frac12 x_1 + \frac12 (-x_0) \in C$, since $C$ is convex and symmetric.
+\end{proof}
+
+
+\subsection{The canonical imbedding of a number field}
+
+Let $K$ be a number field and let $n$ be its degree. There are $n$ distinct isomorphisms $\sigma_i : K \to C$. There are exactly $n$, because the minimal polynomial for a primitive element of $K$ ove $\Q$ has only $n$ roots in $\C$. Let $\alpha : \C \to \C$ be complex conjugation. Then, for any $i = 1, \ldots, n$, we have : $\alpha \cird \sigma_i = \sigma_j$ if and only if $\sigma_i(K)\subseteq \R$. We write $r_1$ for the number of indices such that
+$\sigma_i(K)\subseteq \R$. Then $n-r$ is an even number, so we may write :
+\[r_1 + 2 r_2 = n\]
+Let us renumber the $\sigma_i$'s so that $\sigma_i(K)\subseteq \R$ for $1\leq i\leq r_1$ and so that $\sigma_{i+r_2}(x)=\overline{\sigma_j(x)}$ for $r_1 + 1 \leq j \leq r_1 + r_2$. Then the first $r_1+r_2$ isomorphisms determine the last $r_2$. For $x\in K$, we define :
+\[\sigma(x)=(\sigma_1(x), \ldots, \sigma(x_{r_1+r_2}))\in \R^{r_1}\times \C^{r_2}.\]

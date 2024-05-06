@@ -1,10 +1,10 @@
 \chapter{Ideal Classes and the Unit Theorem}
 
-\subsection{Preliminaries concerning discrete subgroups of $\R^n$}
+\section{Preliminaries concerning discrete subgroups of $\R^n$}
 
-\begin{defintion}[Discrete Subgroup of $\R^n$]
+\begin{definition}[Discrete Subgroup of $\R^n$]
 A subgroup $H$ of $\R^n$ is discrete if and only if, for any compact subset $K$ of $\R^n$, the intersection $H\cap K$ is finite.
-\end{defintion}
+\end{definition}
 
 \begin{theorem}
   Let $H$ be a discrete subgroup of $\R^n$. Then $H$ is generated over $\Z$ by $r$ vectors $e_1,\ldots, e_r$ which are linearly independent over $\R$.
@@ -88,10 +88,33 @@ By calculus we know that $\mu(\scrap_f)=|\det({\alpha_{ij}})|\mu(\scrap_e)$. The
 \end{proof}
 
 
-\subsection{The canonical imbedding of a number field}
+\section{The canonical imbedding of a number field}
 
-Let $K$ be a number field and let $n$ be its degree. There are $n$ distinct isomorphisms $\sigma_i : K \to C$. There are exactly $n$, because the minimal polynomial for a primitive element of $K$ ove $\Q$ has only $n$ roots in $\C$. Let $\alpha : \C \to \C$ be complex conjugation. Then, for any $i = 1, \ldots, n$, we have : $\alpha \cird \sigma_i = \sigma_j$ if and only if $\sigma_i(K)\subseteq \R$. We write $r_1$ for the number of indices such that
-$\sigma_i(K)\subseteq \R$. Then $n-r$ is an even number, so we may write :
-\[r_1 + 2 r_2 = n\]
-Let us renumber the $\sigma_i$'s so that $\sigma_i(K)\subseteq \R$ for $1\leq i\leq r_1$ and so that $\sigma_{i+r_2}(x)=\overline{\sigma_j(x)}$ for $r_1 + 1 \leq j \leq r_1 + r_2$. Then the first $r_1+r_2$ isomorphisms determine the last $r_2$. For $x\in K$, we define :
-\[\sigma(x)=(\sigma_1(x), \ldots, \sigma(x_{r_1+r_2}))\in \R^{r_1}\times \C^{r_2}.\]
+\begin{definition}[Canonical imbedding of a number field]
+  Let $K$ be a number field and let $n$ be its degree. There are $n$ distinct isomorphisms $\sigma_i : K \to C$. There are exactly $n$, because the minimal polynomial for a primitive element of $K$ ove $\Q$ has only $n$ roots in $\C$. Let $\alpha : \C \to \C$ be complex conjugation. Then, for any $i = 1, \ldots, n$, we have : $\alpha \cird \sigma_i = \sigma_j$ if and only if $\sigma_i(K)\subseteq \R$. We write $r_1$ for the number of indices such that
+  $\sigma_i(K)\subseteq \R$. Then $n-r$ is an even number, so we may write :
+  \[r_1 + 2 r_2 = n\]
+  Let us renumber the $\sigma_i$'s so that $\sigma_i(K)\subseteq \R$ for $1\leq i\leq r_1$ and so that $\sigma_{i+r_2}(x)=\overline{\sigma_j(x)}$ for $r_1 + 1 \leq j \leq r_1 + r_2$. Then the first $r_1+r_2$ isomorphisms determine the last $r_2$. For $x\in K$, we define :
+  \[\sigma(x)=(\sigma_1(x), \ldots, \sigma(x_{r_1+r_2}))\in \R^{r_1}\times \C^{r_2}.\]
+  We call $\sigma$ the canonical imbedding of $K$ in $\R^{r_1}\times \C^{r_2}$; it is an injective ring homomorphism. We shall frequently identify $\R^{r_1}\times \C^{r_2}$ with $\R^{n}$.
+\end{definition}
+
+\begin{prop}
+  If $M$ is a free $\Z$-submodule of $K$ of rank $n$ and if $(x_i)_{1\leq i\leq n}$ is a $\Z$-base for $M$ then $\sigma(M)$ is a lattice in $\R^n$, whose volume is :
+  \[\vol(\sigma(M)) = 2^{-r_2}|\det_{1\leq i,j\leq n}(\sigma_i(x_j))|.\]
+\end{prop}
+
+\begin{proof}
+  For fixed $i$ the coordinates of $\sigma(x_i)$ with respect to the canonical base of $\R^n$ are :
+  \small{\[\langle\sigma_1(x_i),\ldots,\sigma_{r_1}(x_i), \Re(\sigma_{r_1+1}(x_i)), \Im(\sigma_{r_1+1}(x_i)),\ldots, \Re(\sigma_{r_1+r_2}(x_i)), \Im(\sigma_{r_1+r_2}(x_i))\rangle\]}
+  We calculate the determinant $D$ of the matrix whose $i$th column is given as above. We know that $\Re(z) = \frac12(z+\bar{z})$ and $\Im(z)=\frac{1}{2i}(z-\bar{z})$ for $z\in \C$. We obtain $D = (2i)^{-r_2}\det(\sigma_j(x_i))$. We apply the transformation $R_{i}\mapsto iR_{i+1}$ for $i=r_1, r_1+2,\ldots, r_1+2r_n$.
+   So we end up with the determinant $D = (2i)^{-r_2}\det_{1\leq i,j\leq n}(\sigma_j(x_i))$. Since $x_i$'s form a base for $K$ over $\Q$, $\det_{1\leq i,j\leq n}(\sigma_j(x_i))\neq 0$ and therefore $D\neq 0$. Thus the vectors $\sigma(x_i)$ are linearly independent in $\R^n$, so that the $\Z$-module they generate (call it $\sigma(M)$) is a lattice in $\R^n$. So we get
+   \[\vol(\sigma(M)) = |(2i)^{-r_2}\det(\sigma_j(x_i))| = 2^{-r_2}|\det(\sigma_j(x_i))|\]
+   as required.
+\end{proof}
+
+
+\begin{prop}
+  Let $d$ be the absolute discriminant of $K$, let $A$ be the ring of integers in $K$, and let $\fraka$ be a non-zero integral ideal of $A$. Then $\sigma(A)$ and $\sigma(\fraka)$ are lattices. Moreover,
+  \[\vol(\sigma(A)) = 2^{-r_2}|d|^{\frac12}\quad\text{and}\quad \vol(\sigma(\fraka)) = 2^{-r_2}|d|^{\frac12}N(\fraka).\]
+\end{prop}

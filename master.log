@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAY 2024 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  7 MAY 2024 01:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1184,50 +1184,50 @@ lse, topline=false, bottomline=false, linecolor=ForestGreen, backgroundcolor=Fo
 restGreen!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmgreenbox' on input line 117.
+(thmtools)             that uses `style=thmgreenbox' on input line 119.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue, backgroundcolor=NavyB
 lue!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmbluebox' on input line 126.
+(thmtools)             that uses `style=thmbluebox' on input line 128.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmblueline' on input line 135.
+(thmtools)             that uses `style=thmblueline' on input line 137.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=RawSienna, backgroundcolor=RawS
 ienna!5, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmredbox' on input line 144.
+(thmtools)             that uses `style=thmredbox' on input line 146.
 Package thmtools Info: Key `numbered' (with value `no')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 155.
+(thmtools)             that uses `style=thmproofbox' on input line 157.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=RawSienna, backgroundcolor=RawS
 ienna!1, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 155.
+(thmtools)             that uses `style=thmproofbox' on input line 157.
 Package thmtools Info: Key `qed' (with value `\qedsymbol ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmproofbox' on input line 155.
+(thmtools)             that uses `style=thmproofbox' on input line 157.
 Package thmtools Info: Key `numbered' (with value `no')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmexplanationbox' on input line 165.
+(thmtools)             that uses `style=thmexplanationbox' on input line 167.
 Package thmtools Info: Key `mdframed' (with value ` linewidth=2pt, rightline=fa
 lse, topline=false, bottomline=false, linecolor=NavyBlue, backgroundcolor=NavyB
 lue!1, ')
 (thmtools)             is not a known style key.
 (thmtools)             Will pass this to every \declaretheorem
-(thmtools)             that uses `style=thmexplanationbox' on input line 165.
+(thmtools)             that uses `style=thmexplanationbox' on input line 167.
 Package thmtools Info: Automatically pulling in `thmdef-mdframed' on input line
- 177.
+ 179.
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/thmtools/th
 mdef-mdframed.sty
@@ -1268,19 +1268,19 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 258.
+ine 260.
 
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 259.
+ine 261.
 
 
 Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 260.
+ine 262.
 
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/todonotes/t
@@ -1674,7 +1674,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (./Chapter4.tex [9]
+./Chapter3.tex:285: Undefined control sequence.
+<recently read> \frakr 
+                       
+l.285 ...raka$ for all $n,x$ integral over $\frakr
+                                                  $, and $x\in \frakr$. But ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapter3.tex:285: Undefined control sequence.
+l.285 ... integral over $\frakr$, and $x\in \frakr
+                                                  $. But this is impossible,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapter3.tex:285: Undefined control sequence.
+l.285 ...is impossible, since $\frakp' \neq \frakr
+                                                  $ (otherwise $\frakp' = A$...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[9]) (./Chapter4.tex [10]
 Chapter 2.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1685,7 +1714,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 14.
-[10
+[11
 
 ]
 Package mdframed Info: mdframed detected package amsthm 
@@ -1703,7 +1732,7 @@ Package mdframed Info: Box was splittet wrong
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 53.
- [11]
+ [12]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 55.
@@ -1716,7 +1745,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 78.
- [12]
+ [13]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 87.
@@ -1762,7 +1791,7 @@ L/cmm/m/it/9 x[]$\T1/cmr/m/n/9 's form a base for $\OML/cmm/m/it/9 K$ \T1/cmr/m
 /cmr/m/n/9 =
  []
 
-[13]
+[14]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 119.
@@ -1783,7 +1812,7 @@ Overfull \hbox (14.71205pt too wide) detected at line 146
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 156.
-[14]
+[15]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 159.
@@ -1814,16 +1843,20 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[15]) [16] (./master.aux)
+[16]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 176.
+) [17] (./master.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 39106 strings out of 476025
- 993851 string characters out of 5779036
+ 39112 strings out of 476025
+ 993947 string characters out of 5779036
  1882388 words of memory out of 5000000
- 58811 multiletter control sequences out of 15000+600000
+ 58817 multiletter control sequences out of 15000+600000
  547888 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,13n,88p,850b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1853,31 +1886,32 @@ ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/2023
 0313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></opt/homebrew
 /Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/euler/e
 ufm10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1
-/public/amsfonts/euler/eufm7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cella
-r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7
+/public/amsfonts/euler/eufm5.pfb></opt/homebrew/Cellar/texlive/20230313_2/share
+/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></opt/homebrew/Cellar/t
+exlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public
+/amsfonts/symbols/msbm7.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texm
+f-dist/fonts/type1/public/rsfs/rsfs10.pfb></opt/homebrew/Cellar/texlive/2023031
+3_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></opt/homebrew/Ce
+llar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.p
+fb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public
+/cm-super/sfbx2074.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dis
+t/fonts/type1/public/cm-super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/202303
+13_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></opt/homebrew/C
+ellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.
+pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-di
+st/fonts/type1/public/cm-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20230
+313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></opt/homebrew/
+Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfss1000
 .pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/publ
-ic/rsfs/rsfs10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2
-/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></opt/homebrew/Cella
-r/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb>
-</opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm
--super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/f
-onts/type1/public/cm-super/sfrm0800.pfb></opt/homebrew/Cellar/texlive/20230313_
-2/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></opt/homebrew/Cell
-ar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
-></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/
-fonts/type1/public/cm-super/sfrm1728.pfb></opt/homebrew/Cellar/texlive/20230313
-_2/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></opt/homebrew/Cel
-lar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pf
-b></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
-cm-super/sfti0600.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist
-/fonts/type1/public/cm-super/sfti0700.pfb>
-Output written on master.pdf (17 pages, 487265 bytes).
+ic/cm-super/sfsx1000.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-d
+ist/fonts/type1/public/cm-super/sfti0600.pfb></opt/homebrew/Cellar/texlive/2023
+0313_2/share/texmf-dist/fonts/type1/public/cm-super/sfti0700.pfb>
+Output written on master.pdf (18 pages, 491217 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 257 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

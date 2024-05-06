@@ -281,5 +281,18 @@ From previous lemma we know that $\calr'$ is a submodule of a free $\calr$-modul
 \begin{proof}
   Let $\mathfrak{b}$ be a non-zero fractional ideal of $\calr$. Then by definition there exists a $d\in \calr\setminus \{0\}$ such that $d\mathfrak{b}\subseteq \calr$, or $d\mathfrak{b}$ is an integral ideal of $\calr$. Let $\Gamma$ be the set of non-zero ideals in $\calr$ which are not product of prime ideals. For the sake of contradiction, lets assume $|\Gamma|>0$. By Zorn's Lemma, there exists $\fraka$ be a maximal element of $\Gamma$. Since $\calr$ is the product of the empty collection of prime ideals, so $\fraka = \calr$.
 
-   Every ideal is contained in a maximal ideal, so let $\fraka \subseteq \frakp$. Let $\frakp'$ be the inverse fractional ideal of $\frakp$ in the monoid of fractional ideals of $\frakr$, the existence of which we proved earlier. Now since $\fraka \subseteq \frakp$, we get $\fraka\frakp' \subseteq \frakp\frakp' = \calr$. Since $\calr \subseteq \frakp'$, $\fraka \subseteq \fraka\frakp'$.
+   Every ideal is contained in a maximal ideal, so let $\fraka \subseteq \frakp$. Let $\frakp'$ be the inverse fractional ideal of $\frakp$ in the monoid of fractional ideals of $\frakr$, the existence of which we proved earlier. Now since $\fraka \subseteq \frakp$, we get $\fraka\frakp' \subseteq \frakp\frakp' = \calr$. Since $\calr \subseteq \frakp'$, $\fraka \subseteq \fraka\frakp'$; in fact $\fraka\frakp'  \neq \fraka$ (if
+    $\fraka\frakp' = \fraka$ and if $x\in \frakp'$, then $x\fraka \subseteq \fraka$, $x^n\fraka\subseteq \fraka$ for all $n,x$ integral over $\frakr$, and $x\in \frakr$. But this is impossible, since $\frakp' \neq \frakr$ (otherwise $\frakp' = A$ and $\frakp\frakp'=\frakp$).) According to the maximality of $\fraka$ in $\Gamma$, we have
+     $\fraka\frakp'\notin \Gamma$, so $\fraka\frakp' = \frakp_1\cdots\frakp_n$,  a product of prime ideals. Multiplying by $\frakp$, we see that $\fraka = \frakp\cdot\frakp_1\cdots \frakp_n$. Thus every integral ideal of $\calr$ is a product of prime ideals.
+
+
+  Consider the uniqueness. Suppose that :
+  \[\prod_{\frakp \in \operatorname{spec}(\calr)} \frakp^{n(\frakp)} = \prod_{\frakp \in \operatorname{spec}(\calr)} \frakp^{m(\frakp)} \implies \prod_{\frakp \in \operatorname{spec}(\calr)} \frakp^{n(\frakp)- m(\frakp)} = \calr.\]
+
+  If $n(\frakp)-m(\frakp)\neq 0$ fo some ideals $\frakp \in \operatorname{spec}(\calr)$, we may separate the positive and negative exponents and write :
+  \[\frakp_1^{\alpha_1}\cdots \frakp_r^{\alpha_r}= \frakq_1^{\beta_1}\cdots\frakq_s^{\beta_s},\]
+  where $\frakp_i, \frakq_j\in \operatorname{spec}(\calr), \alpha_i, \beta_j >0, \frakp_i \neq \frakq_j$ for all $i$ and $j$. Thus $\frakp_1$ contains $ \frakq_1^{\beta_1}\cdots\frakq_s^{\beta_s}$; $\frakp_1 \supset \frakq_j$,
+   for some $j$, say $\frakp_1 \supset \frakq_1$. But $\frakp_1$ and $\frakq_1$ are both maximal, which implies $\frakp_1=\frakq_1$, which is a contradiction.
+
+   We now note that $\prod_{\frakp \in \operatorname{spec}(\calr)}\frakp^{n_\frakp(\frakb)}$ is the inverse of $\frakb$. Hence, the monoid of non-zero fractional ideals of $\calr$ is a group.
 \end{proof}

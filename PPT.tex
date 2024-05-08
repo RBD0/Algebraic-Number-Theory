@@ -1,0 +1,105 @@
+\documentclass[9pt]{beamer}
+%\include{darkbeamerthemes}
+\usepackage{ragged2e}
+\def\Z{\ensuremath\mathbb{Z}}
+\def\C{\ensuremath\mathbb{C}}
+\def\Q{\ensuremath\mathbb{Q}}
+\def\N{\ensuremath\mathbb{N}}
+\def\R{\ensuremath\mathbb{R}}
+\def\M{\ensuremath\mathcal{M}}
+\def\N{\ensuremath\mathbb{N}}
+\setbeamertemplate{footline}[frame number]
+
+\newcounter{saveenumi}
+\newcommand{\seti}{\setcounter{saveenumi}{\value{enumi}}}
+\newcommand{\conti}{\setcounter{enumi}{\value{saveenumi}}}
+\newcommand{\fraka}{\ensuremath{\mathfrak{a}}}
+\newcommand{\frakb}{\ensuremath{\mathfrak{b}}}
+\usetheme{PaloAlto}
+\usecolortheme{whale}
+%\usecolortheme{cormorant}
+\title{Algebraic Number Theory}
+\author{Rahul Dintyala}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}
+  \begin{block}{Theorem}
+    Let $H$ be a discrete subgroup of $\R^n$. Then $H$ is generated (as a $\Z$-module) by $r$ vectors which are linearly independent over $\R$ (so $r\leq n$).
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Theorem}
+    Let $G$ be a group and $\mathbb{K}$ a field. Then, distinct characters are linearly independent over $\mathbb{K}$.
+  \end{block}
+  \textit{Proof}.
+  Suppose
+  \[a_1 \chi_1 + \ldots + a_n \chi_n = 0\tag{$\star$}\]
+  with $a_i \in \mathbb{K}$ not all zero and $n$ minimal with this property. Then ofcourse $n\geq 2$ and $a_i \neq 0$ for all $i$. Since $\chi_1$ and $\chi_2$ are distinct, there exists $h\in G$ such that $\chi_1(h)\neq \chi_2(h)$. Then, for any $g\in G$,
+  \[0 = a_1\chi_1(hg)+\cdots+a_n \chi_n(hg) = a_1 \chi_1(h)\chi_1(g)+\cdots+a_n \chi_n(h)\chi_n(g)\]
+  which means that $a_1 \chi_1(h)\chi_1+\cdots+a_n \chi_n(h)\chi_n = 0$. Dividing this last expression by $\chi_1(h)$ and subtracting it from $(\star)$ we get :
+  \[\left(a_2 - a_2 \frac{\chi_2(h)}{\chi_1(h)}\right)\chi_2 + \cdots + \left(a_n - a_n \frac{\chi_n(h)}{\chi_1(h)}\right)\chi_n = 0 \]
+  contradicting the minimality of $n$. Thus, any collection of distinct characters must be linearly independent. \hfill $\blacksquare$
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Corollary}
+    Suppose that $L/\mathbb{K}$ is a finite normal extension of fields and $\sigma_1,\ldots, \sigma_n$ be the distinct automorphisms of $L$. Then these are linearly independent over $L$.
+  \end{block}
+
+  \textit{Proof}. Follows from previous theorem by viewing the automorphisms as homomorphisms from $L^*\to L^*$. \hfill $\blacksquare$
+
+  \begin{block}{Corollary}
+    Let $L/\mathbb{K}$ be a finite Galois extension of fields of degree $n$. Suppose that $x_1,\ldots, x_n$ is a basis of $L$ over $\mathbb{K}$ and let $\sigma_1, \ldots, \sigma_n$ be the distinct $\mathbb{K}$-automorphisms of $L$. Then, $\det(\sigma_j(x_i)) \neq 0$.
+  \end{block}
+  \textit{Proof}. Suppose that this determinant is actually zero. Then, there exist $a_1,\ldots, a_n$ not all zero such that $\sum_{j}a_j\sigma_j(x_i) = 0$ for all $1\leq i\leq n$.
+  Now, since $x_1,\ldots, x_n$ make a basis of $L$, for any $l\in L$, $\sum_{j}a_j \sigma_j(l) = 0$. Thus, $\sigma_j a_j \sigma_j = 0$ contradicting the previous corrolary. \hfill $\blacksquare$
+
+\end{frame}
+
+
+
+% \begin{frame}{Discriminant}
+%     \begin{block}{Dedekind's Lemma}
+%         Let $G$ be a group, $C$ be a field, and let $\sigma_1,\ldots, \sigma_n$ be distinct homomorphisms of $G$ into the multiplicative group $C^*$. Then the $\sigma_i$'s are linearly independent over $C$.
+%     \end{block}
+%     \textbf{Proof :}
+%     \begin{enumerate}
+%         \item  If the $\sigma_i$'s are linearly dependent, consider a non-trivial relation $\sum_i u_i \sigma_i = 0 (u_i\in C)$ such that the number $q$ of $u_i$'s which are non-zero is minimum. After renumbering, we may suppose that :
+%     \[\sum_{i=1}^q u_i \sigma_i(g) = 0\quad \forall g\in G.\tag{\star}\]
+%     \seti
+%     \end{enumerate}
+% \end{frame}
+% \begin{frame}{Discriminant}
+%     \begin{enumerate}
+%     \conti
+%         \item  We have $q\geq 2$, since the $\sigma_i$'s are not zero. For $g$ and $h$ arbitrary in $G$, we see that :
+%     \[\sum_{i=1}^q u_i \sigma_i(gh) = \sum_{i=1}^q u_i \sigma_i(g)\sigma_i(h) = 0.\]
+%             \item Multiply $(\star)$ by $\sigma_1(h)$. It follows that :
+%     \[u_2(\sigma_1(h)-\sigma_2(h))\sigma_2(g) + \ldots + u_q(\sigma_1(h)-\sigma_q(h))\sigma_q(g) = 0.\]
+%     \item As this holds for any $g\in G$ and as $q$ has been chosen as small as possible, it follows that $u_2(\sigma_1(h)-\sigma_2(h))=0$. This $\sigma_1(h)=\sigma_2(h)$ for all $h\in G$, since $u_2\neq 0$. But this contradicts the hypothesis that the $\sigma_i$'s are all distinct. \hfill $\blacksquare$
+%     \end{enumerate}
+% \end{frame}
+% \begin{frame}{Discriminant}
+%     \begin{block}{Proposition 3}
+%         Let $K$ be a field which is finite or of any characteristic zero, let $L$ be an extension of finite degree $n$ of $K$, and let $\sigma_1,\ldots, \sigma_n$ be the $n$ distinct $K$-isomorphisms of $L$ into an algebraically closed field $C$ containing $K$. Then if $(x_1,\ldots, x_n)$ is a base for $L$ over $K$,
+%         \[D(x_1,\ldots, x_n) = \det(\sigma_i(x_j))^2 \neq 0.\]
+%     \end{block}
+%     \textbf{Proof} :
+%     The first equality follows from the calculation :
+%     \begin{align*}
+%       D(x_1,\ldots, x_n) = \det(\operatorname{Tr}(x_i x_j)) &= \det(\sum_{k}\sigma_k(x_i x_j))=\det(\sum_{k}\sigma_k(x_i)\sigma_k(x_j)) \\
+%       &= \det(\sigma_k(x_i))\det(\sigma_k(x_i)) = \det(\sigma_i(x_j))^2.
+%     \end{align*}
+%     It remains to show that $\det(\sigma(x_j))\neq 0$. If $\det(\sigma_i(x_j)) = 0$, there exist $u_1,\ldots, u_n\in \C$, not all zero, such that $\sum_{i=1}^n u_i\sigma_i(x)=0$ for all $x\in L$.
+% \end{frame}
+
+\end{document}

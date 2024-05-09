@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  9 MAY 2024 01:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  9 MAY 2024 05:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,6 +1051,76 @@ thkerncmss.
 
 ] [4
 
+] [5
+
+] [6
+
+] [7
+
+]
+./PPT.tex:95: Undefined control sequence.
+<recently read> \vol 
+                     
+l.95 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./PPT.tex:95: Undefined control sequence.
+\beamer@doifinframe ...$\vol (C) > 2^n \cdot \vol 
+                                                  (H)$, or \item $\vol (C) \...
+l.95 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./PPT.tex:95: Undefined control sequence.
+<recently read> \vol 
+                     
+l.95 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./PPT.tex:95: Undefined control sequence.
+\beamer@doifinframe ...ol (C) \geq 2^n \cdot \vol 
+                                                  (H)$ and $C$ is compact. \...
+l.95 \end{frame}
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[8
+
+] [9
+
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 110
+.
+
+(/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/amsfonts/ue
+uf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+) [10
+
+] [11
+
+] [12
+
+] [13
+
 ]
 \tf@nav=\write6
 \openout6 = `PPT.nav'.
@@ -1066,32 +1136,35 @@ Package rerunfilecheck Info: File `PPT.out' has not changed.
 (rerunfilecheck)             Checksum: 47949AC7C3DCEDDDEEFE3CD50587DDA1;103.
  ) 
 Here is how much of TeX's memory you used:
- 21971 strings out of 476025
- 443129 string characters out of 5779036
+ 22134 strings out of 476025
+ 447717 string characters out of 5779036
  1865388 words of memory out of 5000000
- 41951 multiletter control sequences out of 15000+600000
- 518792 words of font info for 55 fonts, out of 8000000 for 9000
+ 42090 multiletter control sequences out of 15000+600000
+ 519500 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,16n,122p,399b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,16n,122p,399b,876s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
 amsfonts/cmextra/cmex9.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/homebrew/Cellar/texlive/20
-230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/homeb
-rew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss9.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></opt/homebrew/Cellar/texlive
-/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></opt/ho
-mebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy9.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></opt/homebrew/Cellar
-/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
-.pfb>
-Output written on PPT.pdf (4 pages, 120609 bytes).
+-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></opt/homebrew/Cellar/texlive/20
+230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/homebr
+ew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ss10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss8.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></opt/homebrew/Cellar/texlive/
+20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></opt/hom
+ebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmssi9.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy6.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></opt/homebrew/Cellar/texli
+ve/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></o
+pt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cellar/texlive/
+20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on PPT.pdf (13 pages, 176827 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 10 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 631 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 567 words of extra memory for PDF output out of 10000 (max. 10000000)
 

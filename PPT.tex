@@ -65,41 +65,67 @@
 
 \end{frame}
 
+\begin{frame}
+  \begin{block}{Definition}
+    A discrete subgroup of rank $n$ of $\R^n$ is called a lattice in $\R^n$.
+  \end{block}
+\end{frame}
 
+\begin{frame}
+  \begin{block}{Lemma}
+    The volume $\mu(P_e)$ is independent of the base chosen for $H$.
+  \end{block}
+\end{frame}
 
-% \begin{frame}{Discriminant}
-%     \begin{block}{Dedekind's Lemma}
-%         Let $G$ be a group, $C$ be a field, and let $\sigma_1,\ldots, \sigma_n$ be distinct homomorphisms of $G$ into the multiplicative group $C^*$. Then the $\sigma_i$'s are linearly independent over $C$.
-%     \end{block}
-%     \textbf{Proof :}
-%     \begin{enumerate}
-%         \item  If the $\sigma_i$'s are linearly dependent, consider a non-trivial relation $\sum_i u_i \sigma_i = 0 (u_i\in C)$ such that the number $q$ of $u_i$'s which are non-zero is minimum. After renumbering, we may suppose that :
-%     \[\sum_{i=1}^q u_i \sigma_i(g) = 0\quad \forall g\in G.\tag{\star}\]
-%     \seti
-%     \end{enumerate}
-% \end{frame}
-% \begin{frame}{Discriminant}
-%     \begin{enumerate}
-%     \conti
-%         \item  We have $q\geq 2$, since the $\sigma_i$'s are not zero. For $g$ and $h$ arbitrary in $G$, we see that :
-%     \[\sum_{i=1}^q u_i \sigma_i(gh) = \sum_{i=1}^q u_i \sigma_i(g)\sigma_i(h) = 0.\]
-%             \item Multiply $(\star)$ by $\sigma_1(h)$. It follows that :
-%     \[u_2(\sigma_1(h)-\sigma_2(h))\sigma_2(g) + \ldots + u_q(\sigma_1(h)-\sigma_q(h))\sigma_q(g) = 0.\]
-%     \item As this holds for any $g\in G$ and as $q$ has been chosen as small as possible, it follows that $u_2(\sigma_1(h)-\sigma_2(h))=0$. This $\sigma_1(h)=\sigma_2(h)$ for all $h\in G$, since $u_2\neq 0$. But this contradicts the hypothesis that the $\sigma_i$'s are all distinct. \hfill $\blacksquare$
-%     \end{enumerate}
-% \end{frame}
-% \begin{frame}{Discriminant}
-%     \begin{block}{Proposition 3}
-%         Let $K$ be a field which is finite or of any characteristic zero, let $L$ be an extension of finite degree $n$ of $K$, and let $\sigma_1,\ldots, \sigma_n$ be the $n$ distinct $K$-isomorphisms of $L$ into an algebraically closed field $C$ containing $K$. Then if $(x_1,\ldots, x_n)$ is a base for $L$ over $K$,
-%         \[D(x_1,\ldots, x_n) = \det(\sigma_i(x_j))^2 \neq 0.\]
-%     \end{block}
-%     \textbf{Proof} :
-%     The first equality follows from the calculation :
-%     \begin{align*}
-%       D(x_1,\ldots, x_n) = \det(\operatorname{Tr}(x_i x_j)) &= \det(\sum_{k}\sigma_k(x_i x_j))=\det(\sum_{k}\sigma_k(x_i)\sigma_k(x_j)) \\
-%       &= \det(\sigma_k(x_i))\det(\sigma_k(x_i)) = \det(\sigma_i(x_j))^2.
-%     \end{align*}
-%     It remains to show that $\det(\sigma(x_j))\neq 0$. If $\det(\sigma_i(x_j)) = 0$, there exist $u_1,\ldots, u_n\in \C$, not all zero, such that $\sum_{i=1}^n u_i\sigma_i(x)=0$ for all $x\in L$.
-% \end{frame}
+\begin{frame}
+  \begin{block}{Theorem}
+    Let $H$ be a lattice in $\R^n$ and let $S$ be a measurable subset of $\R^n$ such that $\mu(S)> \operatorname{vol}(H)$. Then there exist two distinct points $x,y\in S$ such that $x-y\in H$.
+  \end{block}
+\end{frame}
 
+\begin{frame}
+  \begin{block}{Corollary}
+    Let $H$ be a full-dimensional lattice in $\R^n$ and let $C\subseteq \R^n$ be a convex set symmetric about the origin $(i.e. x\in C \implies -x\in C)$. Suppose that either :
+    \begin{enumerate}
+      \item $\vol(C) >  2^n \cdot \vol(H)$, or
+      \item $\vol(C) \geq  2^n \cdot \vol(H)$ and $C$ is compact.
+    \end{enumerate}
+    Then $ \C\cap (H\setminus\{0\})\neq \varnothing$.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Proposition}
+    If $M$ is a free $\Z$-submodule of $K$ of rank $n$ and if $(x_i)_{1\leq i\leq n}$ is a $\Z$-base for $M$ then $\sigma(M)$ is a lattice in $\R^n$, whose volume is :
+    \[\operatorname{vol}(\sigma(M)) = 2^{-r_2}|\det_{1\leq i,j\leq n}(\sigma_i(x_j))|.\]
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Proposition}
+    Let $d$ be the absolute discriminant of $K$, let $A$ be the ring of integers in $K$, and let $\mathfrak{a}$ be a non-zero integral ideal of $A$. Then $\sigma(A)$ and $\sigma(\mathfrak{a})$ are lattices. Moreover,
+    \[\operatorname{vol}(\sigma(A)) = 2^{-r_2}|d|^{\frac12}\quad\text{and}\quad \operatorname{vol}(\sigma(\fraka)) = 2^{-r_2}|d|^{\frac12}N(\fraka).\]
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Proposition}
+    Let $K$ be a number field, $n$ its degree, $r_1$ and $r_2$ are integers defined earlier, $d$ the absolute discriminant of $K$, and $\mathfrak{a}$ a non-zero integral ideal of $K$. Then $\fraka$ contains a non-zero element $x$ such that :
+    \[|N_{K/\Q}(x)|\leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}N(\mathfrak{a}).\]
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Corollary}
+    With the same notations, every ideal class of $K$ contains an integral ideal $\mathfrak{b}$ such that :
+    \[N(\mathfrak{b}) \leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}.\]
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Theorem}
+    For any number field $K$ the ideal class group is finite.
+  \end{block}
+\end{frame}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  9 MAY 2024 04:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  9 MAY 2024 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9881,11 +9881,69 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+./Chapter4.tex:177: Undefined control sequence.
+l.177 ...ht)^{r_2}\frac{n!}{n^n}|d|^{\frac12}.\tag
+                                                  {$\star$}\]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapter4.tex:177: Missing } inserted.
+<inserted text> 
+                }
+l.177 ...)^{r_2}\frac{n!}{n^n}|d|^{\frac12}.\tag{$
+                                                  \star$}\]
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Chapter4.tex:177: Display math should end with $$.
+<to be read again> 
+                   \star 
+l.177 ...2}\frac{n!}{n^n}|d|^{\frac12}.\tag{$\star
+                                                  $}\]
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
 
 Overfull \hbox (96.88649pt too wide) detected at line 177
 \OML/cmm/m/it/10 N\OT1/cmr/m/n/10 () \OMS/cmsy/m/n/10 ^^T [][] []j\OML/cmm/m/it
-/10 d\OMS/cmsy/m/n/10 j[]\OML/cmm/m/it/10 :
+/10 d\OMS/cmsy/m/n/10 j[]\OML/cmm/m/it/10 :[]
  []
+
+./Chapter4.tex:177: Missing $ inserted.
+<inserted text> 
+                $
+l.177 ...2}\frac{n!}{n^n}|d|^{\frac12}.\tag{$\star
+                                                  $}\]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Chapter4.tex:177: Extra }, or forgotten \endgroup.
+l.177 ...\frac{n!}{n^n}|d|^{\frac12}.\tag{$\star$}
+                                                  \]
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./Chapter4.tex:177: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...rac{n!}{n^n}|d|^{\frac12}.\tag{$\star$}\]
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ./Chapter4.tex:178: LaTeX Error: \begin{document} ended by \end{corollary}.
@@ -9901,29 +9959,329 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Chapter4.tex:180: LaTeX Error: Environment theorem undefined.
+./Chapter4.tex:179: LaTeX Error: Environment proof undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \begin{theorem}
-                     
+l.179 \begin{proof}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+<recently read> \fraka 
+                       
+l.180   Let $\fraka
+                   '$ ne an ideal of the given class. By multiplying $\fraka...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+<recently read> \fraka 
+                       
+l.180 ...f the given class. By multiplying $\fraka
+                                                  '$ by a principal ideal we...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+<recently read> \fraka 
+                       
+l.180 ...incipal ideal we may suppose that $\fraka
+                                                   = \fraka'^{-1}$ is an int...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapter4.tex:180: Undefined control sequence.
+l.180 ...deal we may suppose that $\fraka = \fraka
+                                                  '^{-1}$ is an integral ide...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+l.180 ...eal. Take a non-zero element $x\in \fraka
+                                                  $ for which the previous t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+<recently read> \frakb 
+                       
+l.180 ... the previous theorem holds. Then $\frakb
+                                                   = x\fraka^{-1}$ is an int...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Chapter4.tex:180: Undefined control sequence.
+l.180 ...ous theorem holds. Then $\frakb = x\fraka
+                                                  ^{-1}$ is an integral idea...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+<recently read> \fraka 
+                       
+l.180 ...tegral ideal in the same class as $\fraka
+                                                  '$, and $N(\frakb)$ satisf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+./Chapter4.tex:180: Undefined control sequence.
+l.180 ...he same class as $\fraka'$, and $N(\frakb
+                                                  )$ satisfies $(\star)$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no . in font nullfont!
+
+./Chapter4.tex:181: LaTeX Error: \begin{document} ended by \end{proof}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181 \end{proof}
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Chapter4.tex:181: LaTeX Error: Missing \begin{document}.
+./Chapter4.tex:182: LaTeX Error: Environment theorem undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181   F
-         or any number field $K$ the ideal class group is finite.
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.182 \begin{theorem}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 Missing character: There is no F in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -9970,49 +10328,94 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./Chapter4.tex:182: LaTeX Error: \begin{document} ended by \end{theorem}.
+./Chapter4.tex:184: LaTeX Error: \begin{document} ended by \end{theorem}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 \end{theorem}
+l.184 \end{theorem}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 181--183
-[]
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 177--185
+$\OML/cmm/m/it/10 ?$
  []
 
 
-Overfull \hbox (9.20833pt too wide) in paragraph at lines 181--183
+Overfull \hbox (2.80556pt too wide) in paragraph at lines 177--185
+[]$
+ []
+
+
+Overfull \hbox (2.80556pt too wide) in paragraph at lines 177--185
+[]$
+ []
+
+
+Overfull \hbox (20.8195pt too wide) in paragraph at lines 177--185
+\OT1/cmr/m/n/10 =[]$
+ []
+
+
+Overfull \hbox (15.15967pt too wide) in paragraph at lines 177--185
+\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2$
+ []
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 177--185
+\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (16.45142pt too wide) in paragraph at lines 177--185
+\OML/cmm/m/it/10 x[]$
+ []
+
+
+Overfull \hbox (2.80556pt too wide) in paragraph at lines 177--185
+[]$
+ []
+
+
+Overfull \hbox (16.90277pt too wide) in paragraph at lines 177--185
+\OML/cmm/m/it/10 N\OT1/cmr/m/n/10 ()$
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 177--185
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ?\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (9.20833pt too wide) in paragraph at lines 177--185
 \OML/cmm/m/it/10 K$
  []
 
 
-./Chapter4.tex:184: LaTeX Error: Environment proof undefined.
+./Chapter4.tex:186: LaTeX Error: Environment proof undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 \begin{proof}
+l.186 \begin{proof}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Chapter4.tex:185: LaTeX Error: Missing \begin{document}.
+./Chapter4.tex:187: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185   B
+l.187   B
          y previous corollory it suffices to show that, for every positive i...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10107,10 +10510,10 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
+./Chapter4.tex:187: Undefined control sequence.
 <recently read> \frakb 
                        
-l.185 ...$, the set of all integral ideals $\frakb
+l.187 ...$, the set of all integral ideals $\frakb
                                                   $ of $K$ which have $q$ as...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10168,10 +10571,10 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
+./Chapter4.tex:187: Undefined control sequence.
 <recently read> \frakb 
                        
-l.185 ...s a finite set. For such an ideal $\frakb
+l.187 ...s a finite set. For such an ideal $\frakb
                                                   $, we have $|A/\frakb| = q...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10186,8 +10589,8 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
-l.185 ...uch an ideal $\frakb$, we have $|A/\frakb
+./Chapter4.tex:187: Undefined control sequence.
+l.187 ...uch an ideal $\frakb$, we have $|A/\frakb
                                                   | = q$. It follows that $q...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10209,8 +10612,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
-l.185 ...frakb| = q$. It follows that $q\in \frakb
+./Chapter4.tex:187: Undefined control sequence.
+l.187 ...frakb| = q$. It follows that $q\in \frakb
                                                   $ since for any group the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10292,10 +10695,10 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
+./Chapter4.tex:187: Undefined control sequence.
 <recently read> \frakb 
                        
-l.185 ...der of the group. Thus our ideals $\frakb
+l.187 ...der of the group. Thus our ideals $\frakb
                                                   $ are among those which co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10369,25 +10772,14 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
-./Chapter4.tex:185: Undefined control sequence.
-<recently read> \blacksquare 
-                             
-l.185 ...ly many such ideals. \hfill $\blacksquare
-                                                  $
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-./Chapter4.tex:186: LaTeX Error: \begin{document} ended by \end{proof}.
+./Chapter4.tex:188: LaTeX Error: \begin{document} ended by \end{proof}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \end{proof}
+l.188 \end{proof}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -10401,10 +10793,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 42 strings out of 476025
- 628 string characters out of 5779036
- 1871388 words of memory out of 5000000
- 20590 multiletter control sequences out of 15000+600000
+ 41 strings out of 476025
+ 617 string characters out of 5779036
+ 1872388 words of memory out of 5000000
+ 20589 multiletter control sequences out of 15000+600000
  513214 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  25i,5n,25p,579b,105s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -29,7 +29,7 @@ A subgroup $H$ of $\R^n$ is discrete if and only if, for any compact subset $K$ 
   \[\lambda_i (j-k)=\lfloor j\lambda_i\rfloor - \lfloor k\lambda_i\rfloor.\]
   Hence $\lambda_i \in \Q$ for all $i$. So far we've shown that for any $x\in \mathscr{P}\cap H$, $x=\sum_{i=1}^r \lambda_i e_i$ where $\lambda_i\in \Q$ for all $i$. Let $d$ be the least common multiple of the denominators of $\lambda_i$'s. Then for any $x\in H$, we know :
   \[x = x_1+\sum_{i=1}^r \lfloor \lambda_i \rfloor e_i \in \frac{1}{d}\sum_{i=1}^r \Z e_i.\] We conclude that :
-  $H \subseteq \frac{1}{d}\sum_{i=1}^r \Z e_i \implies \sum_{i=1}^r \Z e_i \subseteq H \subseteq \frac{1}{d}\Z e_i$. Therefore we must have that $H$ is finitely generated of rank $r$ over $\Z$ on some linear combination of the vectors $\{\frac{1}{d}e_i\}$. This basis is linearly independent over $\R$ as desired.
+  $H \subseteq \frac{1}{d}\sum_{i=1}^r \Z e_i \implies \sum_{i=1}^r \Z e_i \subseteq H \subseteq \frac{1}{d}\sum_{i=1}^r\Z e_i$. Therefore we must have that $H$ is finitely generated of rank $r$ over $\Z$ on some linear combination of the vectors $\{\frac{1}{d}e_i\}$. This basis is linearly independent over $\R$ as desired.
 \end{proof}
 
 \begin{definition}[Lattice]
@@ -174,9 +174,11 @@ Using $(\star)$, we get the desired inequality :
 
 \begin{corollary}
   With the same notations, every ideal class of $K$ contains an integral ideal $\frakb$ such that :
-  \[N(\frakb) \leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}.\]
+  \[N(\frakb) \leq \left(\frac{4}{\pi}\right)^{r_2}\frac{n!}{n^n}|d|^{\frac12}.\tag{$\star$}\]
 \end{corollary}
-
+\begin{proof}
+  Let $\fraka'$ ne an ideal of the given class. By multiplying $\fraka'$ by a principal ideal we may suppose that $\fraka = \fraka'^{-1}$ is an integral ideal. Take a non-zero element $x\in \fraka$ for which the previous theorem holds. Then $\frakb = x\fraka^{-1}$ is an integral ideal in the same class as $\fraka'$, and $N(\frakb)$ satisfies $(\star)$.
+\end{proof}
 \begin{theorem}
   For any number field $K$ the ideal class group is finite.
 \end{theorem}
